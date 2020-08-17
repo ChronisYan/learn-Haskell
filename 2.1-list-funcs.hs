@@ -1,8 +1,8 @@
 -- takes a list and returns a new list with each element doubled
 double list =
-	if null list
-	then []
-	else (2* (head list)) : (double (tail list))
+  if null list
+  then []
+  else (2* (head list)) : (double (tail list))
 
 
 -- takes a list and returns a new list with only the even numbers
