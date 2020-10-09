@@ -23,6 +23,6 @@ rev xs = last xs : rev(init xs)
 facA 2 = 2
 facA n = n * facA (n-1)
 
--- factorials #2 
+-- factorials #2
 facB n = product [2..n]
 
