@@ -1,3 +1,5 @@
+-- Tip: Use as little IO as possible 
+
 -- IO Actions
 -- main ~ IO action executed by the program
 -- do-Block chains multiple IO action 
